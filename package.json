@@ -1,0 +1,27 @@
+{
+  "name": "fog-of-war",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev-host": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@turf/turf": "^7.0.0-alpha.0",
+    "ol": "^7.4.0",
+    "ol-ext": "^4.0.10",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.14",
+    "daisyui": "^3.5.0",
+    "postcss": "^8.4.27",
+    "prettier": "3.0.0",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5"
+  }
+}

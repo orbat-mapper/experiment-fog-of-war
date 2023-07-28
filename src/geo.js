@@ -69,17 +69,6 @@ const rangeRingLayer = new VectorLayer({
 
 const layers = [tileLayerA, tileLayerB, rangeRingLayer, editableFeaturesLayer];
 
-const layerAFilter = new ColorizeFilter();
-const layerBFilter = new Crop({
-  feature: rangeRingLayer.getSource().getFeatures()[0],
-  wrapX: true,
-  inner: false,
-  shadowWidth: 15,
-});
-
-layers[0].addFilter(layerAFilter);
-layers[1].addFilter(layerBFilter);
-
 function createRangeRings() {
   rangeRingLayer.getSource().clear();
   // convert editable features to geojson for use with Turf.js
@@ -97,6 +86,17 @@ function createRangeRings() {
 }
 
 createRangeRings();
+
+const layerAFilter = new ColorizeFilter();
+const layerBFilter = new Crop({
+  feature: rangeRingLayer.getSource().getFeatures()[0],
+  wrapX: true,
+  inner: false,
+  shadowWidth: 15,
+});
+
+layers[0].addFilter(layerAFilter);
+layers[1].addFilter(layerBFilter);
 
 const modify = new Modify({
   source: editableFeaturesSource,

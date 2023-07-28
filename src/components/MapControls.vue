@@ -33,7 +33,7 @@ watchEffect(() => {
       <a
         aria-label="Github"
         target="_blank"
-        href="https://github.com/saadeghi/daisyui"
+        href="https://github.com/orbat-mapper/experiment-fog-of-war"
         rel="noopener, noreferrer"
         class="btn btn-sm btn-ghost drawer-button btn-square normal-case"
         ><svg

@@ -45,7 +45,7 @@ const editableFeaturesSource = new VectorSource({
 const rangeRingSource = new VectorSource();
 
 const tileLayerA = new TileLayer({
-  source: sources.topo4,
+  source: sources.osm,
   extent: transformExtent([2, 57, 33, 72], "EPSG:4326", "EPSG:3857"),
 });
 
@@ -111,9 +111,7 @@ modify.on("modifyend", (event) => {
 const olMap = new OLMap({
   layers,
   view: new View({
-    center: fromLonLat([5.257432292631307, 61.93262171483414]),
     maxTilesLoading: 200,
-    zoom: 10,
   }),
 });
 

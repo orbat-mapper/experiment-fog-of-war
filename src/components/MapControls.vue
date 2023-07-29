@@ -5,8 +5,8 @@ import { useMap } from "../geo";
 const { layerAFilter, layerBFilter, changeSources, fitMap } = useMap();
 fitMap();
 
-const sourceA = ref("topo4");
-const sourceB = ref("topo4");
+const sourceA = ref("osm");
+const sourceB = ref("osm");
 const filterName = ref("grayscale");
 const shadowWidth = ref(15);
 const panelOpen = ref(true);

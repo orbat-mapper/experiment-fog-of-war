@@ -6,6 +6,14 @@ Simple experiment with a "fog of war" effect. Try it out at https://experiment-f
 
 Warning: Some of the map layers does not load when using StackBlitz and Firefox.
 
+All the code for drawing the map is available in [src/geo.js](src/geo.js). All other files are for the user interface. 
+
+Libraries used:
+- [OpenLayers](https://openlayers.org/) for drawing the map
+- [ol-ext](https://viglino.github.io/ol-ext/) for layer filters
+- [Turf.js](https://turfjs.org/) for geometry calculations
+
+
 Screenshot:
 
 ![](screenshot.png)

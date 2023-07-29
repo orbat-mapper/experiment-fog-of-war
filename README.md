@@ -2,6 +2,8 @@
 
 Simple experiment with a "fog of war" effect. Try it out at https://experiment-fog-of-war.netlify.app/.
 
+[Open in CodeSandbox](https://githubbox.com/orbat-mapper/experiment-fog-of-war)
+
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/orbat-mapper/experiment-fog-of-war)
 
 Warning: Some of the map layers does not load when using StackBlitz and Firefox.

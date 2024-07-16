@@ -17,11 +17,11 @@ import { toStyle } from "ol/style/flat";
 // Set up sources and layers
 const sources = {
   topo4: new XYZ({
-    url: "https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}",
+    url: "https://cache.kartverket.no/v1/wmts/1.0.0/topo/default/webmercator/{z}/{y}/{x}.png",
     attributions: ['<a href="http://www.kartverket.no/">Kartverket</a>'],
   }),
   topo4grayscale: new XYZ({
-    url: "https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4graatone&zoom={z}&x={x}&y={y}",
+    url: "https://cache.kartverket.no/v1/wmts/1.0.0/topograatone/default/webmercator/{z}/{y}/{x}.png",
     attributions: '<a href="http://www.kartverket.no/">Kartverket</a>',
   }),
   osm: new OSM(),

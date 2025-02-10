@@ -6,6 +6,8 @@ Simple experiment with a "fog of war" effect. Try it out at https://experiment-f
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/orbat-mapper/experiment-fog-of-war)
 
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/orbat-mapper/experiment-fog-of-war)
+
 Warning: Some of the map layers does not load when using StackBlitz and Firefox.
 
 All the code for drawing the map is available in [src/geo.js](src/geo.js). All other files are for the user interface. 
